@@ -22,7 +22,11 @@ gh_activity_feed <- function() {
               .x$type == "PullRequestEvent" ~ "created a pull request for",
               TRUE ~ .x$type
             ),
-            tags$code(.x$repo$name, style="font-size:9pt"),
+            htmltools::tags$a(
+              style = "font-family:monospace; font-size:9.5pt;text-decoration:none;color:darkslateblue;cursor:pointer",
+              href = sprintf("https://github.com/%s", .x$repo$name),
+              .x$repo$name
+            ),
             sprintf(
               "(%s min ago)",
               round(
@@ -39,3 +43,4 @@ gh_activity_feed <- function() {
   ) %>%
     html_print()
 }
+
