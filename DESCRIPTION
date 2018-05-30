@@ -25,5 +25,9 @@ Imports:
     htmltools,
     dplyr,
     gh,
+    tweetview,
+    rtweet,
     utils
+Remotes:
+    hrbrmstr/tweetview
 RoxygenNote: 6.0.1.9000

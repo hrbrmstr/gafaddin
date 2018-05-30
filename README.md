@@ -11,6 +11,9 @@ Minimal HTML-view GitHub activity feed viewer.
 
 An add-in for RStudio.
 
+OK, three add-ins. Two for Twitter and one for GH. Use the Twitter ones
+at your own risk.
+
 ## Installation
 
 ``` r

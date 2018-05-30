@@ -6,7 +6,7 @@
 #' @name gafaddin
 #' @docType package
 #' @author Bob Rudis (bob@@rud.is)
-#' @import rstudioapi htmltools gh
+#' @import rstudioapi htmltools gh tweetview rtweet
 #' @import shiny miniUI stringi
 #' @importFrom dplyr case_when %>%
 NULL

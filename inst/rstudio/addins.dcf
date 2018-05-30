@@ -2,3 +2,13 @@ Name: GitHub Activity Feed
 Description: View a minimalist GitHub Activity Feed in the Viewer pane
 Binding: gh_activity_feed
 Interactive: false
+
+Name: Twitter Timeline
+Description: View a styled view of your Twitter feed
+Binding: twitter_timeline
+Interactive: false
+
+Name: #rstats Twitter Timeline
+Description: View a styled view of the #rstats Twitter tag
+Binding: rstats_timeline
+Interactive: false
