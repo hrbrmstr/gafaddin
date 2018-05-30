@@ -1,0 +1,4 @@
+Name: GitHub Activity Feed
+Description: View a minimalist GitHub Activity Feed in the Viewer pane
+Binding: gh_activity_feed
+Interactive: false
