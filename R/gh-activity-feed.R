@@ -27,7 +27,7 @@ gh_activity_feed <- function() {
               "(%s min ago)",
               round(
                 as.numeric(
-                  difftime(as.POSIXct(format(Sys.time(), tz="GMT")), anytime::anytime(x[[1]]$created_at)),
+                  difftime(as.POSIXct(format(Sys.time(), tz="GMT")), anytime::anytime(.x$created_at)),
                   "mins"
                 )
               )
