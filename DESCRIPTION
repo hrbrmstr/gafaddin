@@ -26,8 +26,9 @@ Imports:
     dplyr,
     gh,
     tweetview,
-    rtweet,
+    anytime,
     utils
 Remotes:
+    mkearney/rtweet,
     hrbrmstr/tweetview
 RoxygenNote: 6.0.1.9000
