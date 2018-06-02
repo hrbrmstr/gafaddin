@@ -1,5 +1,6 @@
 twitter_timeline <- function() {
   x <- rtweet::get_my_timeline()
+  x <- dplyr::arrange(x, dplyr::desc(created_at))
   y <- tweetview::as_tweet_thread(x)
 
   htmltools::html_print(

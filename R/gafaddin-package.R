@@ -8,5 +8,5 @@
 #' @author Bob Rudis (bob@@rud.is)
 #' @import rstudioapi htmltools gh tweetview rtweet
 #' @import shiny miniUI stringi
-#' @importFrom dplyr case_when %>%
+#' @importFrom dplyr case_when %>% arrange dplyr
 NULL
